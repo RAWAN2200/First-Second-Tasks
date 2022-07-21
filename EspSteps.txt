@@ -1,0 +1,9 @@
+1-download and install Arduino IDE
+2-from file -> preferences and paste the following link https://dl.espressif.com/dl/package_esp32_index.json in URLs.
+3-go to the Tools -> Board -> Board manager write esp32 and install the latest version   "espressif system 1.0.6"
+4- then, from Tools -> Board -> esp32 Arduino  -> select ESP32 Dev Module
+5- from File -> Examples -> ESP32 -> chipID -> GetChipID 
+6- connect the board with USB 
+7- from Tools -> Board "Arduino Uno" -> ESP32 Arduino -> WEMOS D1 MINI ESP32 
+8-From Tools -> Port : "COM3" (esp32io.com)
+9-Now , we want to run the power from File -> Example -> 01.Basics -> Blink
